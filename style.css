@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: white;
+}
+body {
+  background-color: #6b92ba;
+}
+#navBar {
+  background-color: black;
+  height: 50px;
+}
+#navButtons {
+  display: flex;
+  text-align: center;
+  font-family: "Expletus Sans",sans-serif;
+  list-style: none;
+  gap: 15%;
+  margin: 0 24%;
+  border: 0 0;
+  padding: 0px;
+}
+#navButtons li {
+  margin-top: 8px;
+}
+
+#navButtons li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+main {
+  color: white;
+}
+#myName {
+  padding-top: 130px;
+  padding-left: 30px;
+  font-weight: 700;
+  font-size: 70px;
+}
+
+#myIntro {
+  padding-top: 10px;
+  padding-left: 45px;
+  font-size: 45px;
+}
+
+#myParagraph p {
+  padding-left: 60px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.social-links a {
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#myPic {
+  margin: -320px 0px 30px 900px;
+  height: 500px;
+  width: 30%;
+}
+
+#skillsIntro {
+}
